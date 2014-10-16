@@ -181,6 +181,75 @@ a:after {
 	font-weight: 700;
 }
 
+/* ================== TEAM MEMBERS INFORMATION OVER iMAGE ================== */
+.members {
+  width: 400px;
+  position: relative;
+  color: white;
+  float: center;
+  margin: 0 0px 0 0;
+  > img {
+    display: block;
+    position: relative;
+  }
+}
+
+.team-info-r {
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+  width: relative;
+  padding: 10px 10px 10px 10px;
+  background: #f85c37;
+
+}
+
+.team-info-g {
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+  width: relative;
+  padding: 10px 10px 10px 10px;
+  background: #66CC66;
+
+}
+
+.subhead {
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.team-name {
+  color: white;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: -1px;
+}
+
+.team-description {
+	color: white;
+	padding-top: 20px;
+}
+
+.team-description i {
+	margin: 8px;
+}
+
+/* Team Member Stats Icons Conf */
+.team-stat i {
+	font-size: 28px;
+}
+
+
+/* Color Wraps */
+#white {
+	margin-top: 0px;
+	background-color: #ffffff;
+	min-height: 300px;
+	width: 100%;
+}
+
 /* Light Grey */
 #lg {
 	background: #ebebeb;

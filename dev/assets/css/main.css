@@ -56,15 +56,13 @@ a {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
     color: #7b7b7b;
     text-decoration: none;
     outline: 0;
 }
 
-a:before,
-a:after {
+a:before, a:after {
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -90,16 +88,20 @@ a:after {
 }
 
 .navbar-inverse {
-	background: #2d2d2d;
-	border-color: #2d2d2d;
+	background: #333;
+	border-color: #333;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background: #2d2d2d
+	background: #333
+}
+
+.navbar-inverse .navbar-nav > .active:hover {
+	background: #333
 }
 
 .navbar-inverse .navbar-brand {
-	color: #999999;
+	color: #333;
 	font-weight: bolder;
 	font-size: 22px;
 	letter-spacing: 1px;
@@ -181,6 +183,10 @@ a:after {
 	font-weight: 700;
 }
 
+#right {
+	text-align: right;
+}
+
 /* ================== TEAM MEMBERS INFORMATION OVER iMAGE ================== */
 .members {
   width: 400px;
@@ -245,7 +251,7 @@ a:after {
 /* Color Wraps */
 #white {
 	margin-top: 0px;
-	background-color: #ffffff;
+	background-color: #2d2d2d;
 	min-height: 300px;
 	width: 100%;
 }
@@ -316,7 +322,7 @@ a:after {
 
 /* Footer Wrap */
 #f {
-	background: #2d2d2d;
+	background: #f2f2f2;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -328,7 +334,7 @@ a:after {
 }
 
 #f i:hover {
-	color: #ffffff;
+	color: #2d2d2d;
 }
 
 /****** SECTIONS *****/
@@ -336,26 +342,59 @@ a:after {
 #rsd {
 	background: url('../img/rsd.jpg');
 	border-style: solid;
-    border-color: #ebebeb #ebebeb;
+    border-color: #f2f2f2 #f2f2f2;
+}
+
+#rsd > img {
+    position:absolute;
+    top:50%;
+    min-height:100%;
+    display:block;
+    left:50%;
+    -webkit-transform: translate(-70%, -70%);
+    min-width:100%;
+}
+
+#cpb > hover {
+    position:absolute;
+    top:50%;
+    min-height:100%;
+    display:block;
+    left:50%;
+    -webkit-transform: translate(-70%, -70%);
+    min-width:100%;
+    
+    
 }
 
 #rsd:hover {
 	background: #f85c37;
 	border-style: solid;
-    border-color: #ebebeb #ebebeb;
+    border-color: #ebebeb #ebebee;
     
+}
+
+
+#cpb > img {
+    position:absolute;
+    top:50%;
+    min-height:80%;
+    display:block;
+    left:50%;
+    -webkit-transform: translate(-80%, -80%);
+    min-width:100%;
 }
 
 #cpb {
 	background: url('../img/cpb.jpg');
 	border-style: solid;
-    border-color: #ebebeb #ebebeb;
+    border-color: #f2f2f2 #f2f2f2;
 }
 
 #cpb:hover {
 	background: #66CC66;
 	border-style: solid;
-    border-color: #ebebeb #ebebeb;
+    border-color: #ebebeb #ebebee;
 }
 
 .w {
@@ -369,7 +408,14 @@ a:after {
 }
 
 .w i {
-	font-size: 30px;
+	font-size: 35px;
+	color: #555;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}
+.w i:hover {
+	color: #000000;
 }
 
 
@@ -391,7 +437,7 @@ a:after {
 }
 
 .desc i {
-	color: #ffffff;
+	color: #2d2d2d;
 	font-size: 12px;
 	padding: 5px;
 }

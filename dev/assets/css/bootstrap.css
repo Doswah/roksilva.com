@@ -4548,6 +4548,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-right {
     float: right !important;
   }
+  .navbar-center {
+    float: center !important;
+  }
 }
 
 .navbar-form {
@@ -6122,7 +6125,7 @@ button.close {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background-color: #000000;
+  background-color: #f2f2f2;
   border-radius: 4px;
 }
 

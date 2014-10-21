@@ -10,9 +10,11 @@ if(empty($_POST['name'])  ||
 
 $name = $_POST['name']; 
 $email_address = $_POST['email']; 
+$event_type = $_POST['event-type'];
+$event_date = $_POST['event-date'];
+$event_time = $_POST['event-time'];
 $message = $_POST['message']; 
-$num_shirts = $_POST['numshirts'];
-$expected_date = $_POST['expected-date'];
+
 
 
 if (!preg_match(
@@ -25,13 +27,14 @@ $email_address))
 if( empty($errors))
 {
 	$to = $myemail; 
-	$email_subject = "Contact form submission: $name";
+	$email_subject = "CHEEZY Photobooth Inquiry from $name";
 	$email_body = "You have received a new message. \n".
 	" Here are the details:\n 
 	Name: $name \n 
 	Email: $email_address \n 
-	Number of Shirts: $num_shirts \n
-	Wanted date of completion: $expected_date \n
+	Type of Event: $event_type \n
+	Date of Event: $event_date\n
+	Time of Event: $event_time\n
 	Message: $message"; 
 	
 	$headers = "From: $myemail\n"; 
@@ -39,7 +42,7 @@ if( empty($errors))
 	
 	mail($to,$email_subject,$email_body,$headers);
 	//redirect to the 'thank you' page
-	header('Location: contact-form-thank-you.html');
+	header('Location: cheezy-contact-confirm.html');
 } 
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 

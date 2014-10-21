@@ -38,6 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     line-height: 28px;
     margin-bottom: 25px;
+    font-size:20px;
 }
 
 .centered {
@@ -339,68 +340,23 @@ a:before, a:after {
 
 /****** SECTIONS *****/
 
-#rsd {
-	background: url('../img/rsd.jpg');
-	border-style: solid;
-    border-color: #f2f2f2 #f2f2f2;
+
+#whiteish {
+	background: #ffffff;
+	padding-left: -1000px;
 }
 
-#rsd > img {
-    position:absolute;
-    top:50%;
-    min-height:100%;
-    display:block;
-    left:50%;
-    -webkit-transform: translate(-70%, -70%);
-    min-width:100%;
-}
-
-#cpb > hover {
-    position:absolute;
-    top:50%;
-    min-height:100%;
-    display:block;
-    left:50%;
-    -webkit-transform: translate(-70%, -70%);
-    min-width:100%;
-    
-    
-}
-
-#rsd:hover {
-	background: #f85c37;
-	border-style: solid;
-    border-color: #ebebeb #ebebee;
-    
-}
-
-
-#cpb > img {
-    position:absolute;
-    top:50%;
-    min-height:80%;
-    display:block;
-    left:50%;
-    -webkit-transform: translate(-80%, -80%);
-    min-width:100%;
-}
-
-#cpb {
-	background: url('../img/cpb.jpg');
-	border-style: solid;
-    border-color: #f2f2f2 #f2f2f2;
-}
-
-#cpb:hover {
-	background: #66CC66;
-	border-style: solid;
-    border-color: #ebebeb #ebebee;
+#white {
+	background: #ffffff;
+	padding-top: 80px;
+	padding-left: -1000px;
 }
 
 .w {
-	padding-top: 0px;
-	padding-left: -1000px;
-	padding-bottom: 35px;
+	padding-top: 20px;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-bottom: -5px;
 }
 
 .w h4 {

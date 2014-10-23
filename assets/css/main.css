@@ -382,10 +382,10 @@ a:before, a:after {
 }
 
 .w i {
-	font-size: 25px;
+	font-size: 40px;
 	color: #555;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 30px;
+	padding-right: 30px;
 	
 }
 .w i:hover {

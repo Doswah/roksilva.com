@@ -1,0 +1,58 @@
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+html { height: 100%; }
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.js .fixed-bar {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+
+.js .gallery {
+	width: 100%;
+	max-width: 450px;
+	margin: 0 auto;
+	border-radius: 20px;
+	position: relative;
+	background: #000 url(../images/black_denim.png);
+	box-shadow: 0 2px 1px rgba(255,255,255,0.9), 0 -2px 1px rgba(255,255,255,0.9);
+}
+
+.lt-ie8 .elastislide-list {
+	display: none;
+}
+
+@media screen and (max-width: 690px) {
+	.codrops-demos {
+		float: left;
+		clear: both;
+	}
+}
+

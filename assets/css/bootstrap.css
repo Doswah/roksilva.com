@@ -4495,13 +4495,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-nav {
-  margin: 7.5px -15px;
+  margin: 0px 10px;
 }
 
 .navbar-nav > li > a {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  line-height: 20px;
+  padding-top: 0px;
+  padding-bottom: 8px;
+  line-height: 18px;
 }
 
 @media (max-width: 767px) {
@@ -4517,10 +4517,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
   }
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
-    padding: 5px 15px 5px 25px;
+    padding: 5px 5px 5px 5px;
   }
   .navbar-nav .open .dropdown-menu > li > a {
-    line-height: 20px;
+    line-height: 10px;
   }
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -4537,8 +4537,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 29px;
+    padding-bottom: 13px;
   }
 }
 
@@ -4598,7 +4598,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-form {
     width: auto;
-    padding-top: 0;
+    padding-top: -10;
     padding-bottom: 0;
     margin-right: 0;
     margin-left: 0;
@@ -4670,6 +4670,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a:focus {
   color: #333333;
   background-color: transparent;
+
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -4781,6 +4782,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-inverse .navbar-nav > li > a {
   color: #000000;
+  margin-bottom: -10px;
+  margin-top: -10px;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
@@ -4818,7 +4821,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #101010;
+  border-color: #ffffff;
 }
 
 .navbar-inverse .navbar-nav > .open > a,
@@ -4892,7 +4895,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .breadcrumb > li + li:before {
-  padding: 0 5px;
+  padding: 0 0px;
   color: #cccccc;
   content: "/\00a0";
 }

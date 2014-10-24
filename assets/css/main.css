@@ -182,7 +182,7 @@ a:before, a:after {
 
 #headerwrap {
 	background: url(../img/rsd-hover.jpg) no-repeat center bottom;
-	margin-top: 150px;
+	margin-top: 0px;
 	padding-top:0px;
 	margin-bottom: -20px;
 	padding-bottom: 0px;
@@ -200,7 +200,7 @@ a:before, a:after {
 
 #cheezywrap {
 	background: url(../img/cpb-hover.jpg) no-repeat center bottom;
-	margin-top: 150px;
+	margin-top: 0px;
 	padding-top:0px;
 	margin-bottom: -20px;
 	padding-bottom: 0px;
@@ -362,8 +362,8 @@ a:before, a:after {
 /* Light Grey */
 #lg {
 	background: #ebebeb;
-	padding-top: 22px;
-	padding-bottom: 22px;
+	padding-top: 1px;
+	padding-bottom: 1px;
 	text-align: center;
 }
 

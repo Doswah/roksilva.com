@@ -28,9 +28,11 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
+    font-family: "Lato";
     font-weight: 300;
     color: #333;
+    letter-spacing: 1px;
+    word-spacing: 2px;
 }
 
 
@@ -47,7 +49,7 @@ p {
 
 /* Links */
 a {
-    color: #000000;
+    color: #ffffff;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -58,7 +60,7 @@ a {
 }
 
 a:hover, a:focus {
-    color: #7b7b7b;
+    color: #d2d2d2;
     text-decoration: none;
     outline: 0;
 }
@@ -82,35 +84,40 @@ a:before, a:after {
 
 
 .navbar {
-	font-weight: 300;
-	font-size: 20px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	color: #000000;
+	font-weight: 375;
+	font-size: 23px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .navbar-inverse {
-	background: #333;
-	border-color: #333;
+	color: #000000;
+	background: #ffffff;
+	border-color: #ffffff;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background: #333
+	background: #333;
+	color: #000000;
 }
 
 .navbar-inverse .navbar-nav > .active:hover {
-	background: #333
+	background: #333;
+	color: #000000;
 }
 
 .navbar-inverse .navbar-brand {
-	color: #333;
+	color: #000000;
 	font-weight: bolder;
 	font-size: 22px;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
 
 .navbar-inverse .navbar-brand i {
-	color: #f85c37;
+	color: #000000;
 	font-size: 22px;
+	padding-top: 10px;
 	letter-spacing: 1px;
 }
 
@@ -144,14 +151,61 @@ a:before, a:after {
     margin-right: auto;
 }
 
+#rsdwelcome {
+	background-color: #f2f2f2;
+	padding-top: 3px;
+	padding-bottom: 13px;
+	color: #ffffff;
+	font-weight: 500;
+	text-align:center;
+	width: 100%;
+}
+
+#contactus {
+	background-color: #000000;
+	width: 100%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+#contactus h4{
+	color: #ffffff;
+	font-weight: 500;
+	text-align:center;
+}
 
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
-	margin-top: -10px;
+	background: url(../img/rsd-hover.jpg) no-repeat center bottom;
+	margin-top: 0px;
 	padding-top:20px;
+	margin-bottom: -20px;
+	padding-bottom: 100px;
 	text-align:center;
 	background-attachment: relative;
-	background-position: center center;
+	background-position: center top;
+	min-height: 500px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#cheezywrap {
+	background: url(../img/cpb-hover.jpg) no-repeat center bottom;
+	margin-top: 0px;
+	padding-top:20px;
+	margin-bottom: -20px;
+	padding-bottom: 100px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center top;
 	min-height: 500px;
 	width: 100%;
 	
@@ -197,6 +251,45 @@ a:before, a:after {
 #right {
 	text-align: right;
 }
+
+
+/* WRAPS FOR ROKSILVA DESIGNS */
+#shirts{
+	background-color: #0D6FB4;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#shirts h1{
+	color: #ffffff;
+	text-align: center;
+}
+	
+#stickers{
+	background-color: #E1E540;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#stickers h1{
+	color: #ffffff;
+	text-align: center;
+}
+
+#embroidery{
+	background-color: #17A037;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#embroidery h1{
+	color: #ffffff;
+	text-align: center;
+}
+
 
 /* ================== TEAM MEMBERS INFORMATION OVER iMAGE ================== */
 .members {
@@ -270,8 +363,8 @@ a:before, a:after {
 /* Light Grey */
 #lg {
 	background: #ebebeb;
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 22px;
+	padding-bottom: 2px;
 	text-align: center;
 }
 

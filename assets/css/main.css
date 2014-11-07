@@ -109,11 +109,11 @@ a:before, a:after {
 
 .navbar-inverse .navbar-nav > .active:hover {
 	background: #333;
-	color: #000000;
+	color: #ffffff;
 }
 
 .navbar-inverse .navbar-brand {
-	color: #000000;
+	color: #ffffff;
 	font-weight: bolder;
 	font-size: 22px;
 	letter-spacing: 2px;
@@ -186,16 +186,18 @@ a:before, a:after {
 	padding-top:0px;
 	margin-bottom: -20px;
 	padding-bottom: 0px;
-	text-align:center;
+	text-align: center;
 	background-attachment: relative;
 	background-position: center top;
-	min-height: 400px;
+	min-height: 450px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
+    
+
 }
 
 #cheezywrap {
@@ -207,13 +209,14 @@ a:before, a:after {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center top;
-	min-height: 400px;
+	min-height: 450px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
+
 }
 
    
@@ -374,9 +377,23 @@ a:before, a:after {
 
 /* Red Wrap */
 #r {
+	margin-top: -100px;
 	background: #f85c37;
-	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+#r h1 {
+	color: white;
+	font-weight: 700;
+	font-size: 90px;
+}
+
+#r h3 {
+	color: white;
+	font-weight: 400;
+	padding-left: 80px;
+	padding-right: 80px;
 }
 
 #r h4 {
@@ -388,12 +405,21 @@ a:before, a:after {
 	color: white;
 }
 
+
 /* Blue Wrap */
 
 #blue {
 	background: #3498db;
-	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#blue h3 {
+	color: white;
+	font-weight: 400;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 10px;
 }
 
 #blue h4 {
@@ -407,10 +433,8 @@ a:before, a:after {
 
 /* Green Wrap */
 
-#green {
-	background: #66CC66;
-	padding-top: 35px;
-	padding-bottom: 35px;
+#lightblue {
+	background: rgba(54, 25, 25, .00004);
 }
 
 #green h4 {

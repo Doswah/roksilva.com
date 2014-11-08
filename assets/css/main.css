@@ -201,21 +201,17 @@ a:before, a:after {
 }
 
 #cheezywrap {
-	background: url(../img/cpb-hover.jpg) no-repeat center bottom;
+	background: url(../img/cpb-hover.jpg) no-repeat center center;
 	margin-top: 0px;
-	padding-top:0px;
-	margin-bottom: -20px;
-	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-bottom: 18px;
+	padding-bottom: -100px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center top;
-	min-height: 450px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+	min-height: 441px;
+	width: 79%;
+	border: 0.5px solid black;
 
 }
 
@@ -240,9 +236,12 @@ a:before, a:after {
 
 /* Dark Grey Wrap */
 #dg {
-	background: #e0e0e0;
-	padding-top: 0px;
-	padding-bottom: 70px;
+	background: #d2d2d2;
+	margin-top: -5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: -20px;
+	padding-right: -20px;
 	text-align: center;
 }
 
@@ -290,6 +289,16 @@ a:before, a:after {
 #embroidery h1{
 	color: #ffffff;
 	text-align: center;
+}
+
+.menu a{
+  color: #d2d2d2;
+}
+
+.menu a:hover, a:focus {
+    color: #ffffff;
+    text-decoration: none;
+    outline: 0;
 }
 
 
@@ -354,6 +363,19 @@ a:before, a:after {
 }
 
 
+#pink {
+	background: #FF55E6;
+	margin-top: -18px;
+	margin-bottom: 18px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#pink h4 {
+	color: white;
+	font-weight: 700;
+}
+
 /* Color Wraps */
 #white {
 	margin-top: 0px;
@@ -362,13 +384,25 @@ a:before, a:after {
 	width: 100%;
 }
 
+#cheezy img {
+	max-width: 50%;
+	height: auto;
+}
+
+
 /* Light Grey */
 #lg {
 	background: #ebebeb;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	text-align: center;
+	margin-top: -20px;
+	padding-top: -100px;
+	margin-bottom: -10px;
 }
+
+#lg img {
+	max-width: 50%;
+	height: auto;
+}
+
 
 #lg h4 {
 	font-weight: 700;
@@ -377,16 +411,18 @@ a:before, a:after {
 
 /* Red Wrap */
 #r {
-	margin-top: -100px;
+	margin-top: 0px;
 	background: #f85c37;
-	padding-top: 60px;
-	padding-bottom: 20px;
+	margin-top: -18px;
+	margin-bottom: 18px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #r h1 {
 	color: white;
 	font-weight: 700;
-	font-size: 90px;
+	font-size: 40px;
 }
 
 #r h3 {
@@ -410,15 +446,28 @@ a:before, a:after {
 
 #blue {
 	background: #3498db;
+	margin-top: -18px;
+	margin-bottom: 18px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
 
-#blue h3 {
+#blue img {
+	max-width: 50%;
+	height: auto;
+}
+
+#blue h1 {
 	color: white;
 	font-weight: 400;
-	padding-left: 80px;
-	padding-right: 80px;
+	padding-left: auto;
+	padding-right: auto;
+	padding-bottom: 10px;
+}
+
+#blue h3 {
+	color: white;
+	font-weight: 500;
 	padding-bottom: 10px;
 }
 

@@ -14,7 +14,7 @@
 /* OVERALL ASPECT */
 
 body {
-  background-color: #ffffff;
+  background-color: #ebebee;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
@@ -365,22 +365,25 @@ a:before, a:after {
 
 #pink {
 	background: #FF55E6;
-	margin-top: -18px;
-	margin-bottom: 18px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	margin-top: -22px;
+	margin-bottom: 22px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 #pink h4 {
 	color: white;
 	font-weight: 700;
+	
+	line-height: 18px;
+	margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 /* Color Wraps */
 #white {
 	margin-top: 0px;
 	background-color: #2d2d2d;
-	min-height: 300px;
 	width: 100%;
 }
 
@@ -413,10 +416,10 @@ a:before, a:after {
 #r {
 	margin-top: 0px;
 	background: #f85c37;
-	margin-top: -18px;
-	margin-bottom: 18px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	margin-top: -22px;
+	margin-bottom: 22px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 #r h1 {
@@ -435,6 +438,10 @@ a:before, a:after {
 #r h4 {
 	color: white;
 	font-weight: 700;
+	
+	line-height: 18px;
+	margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 #r p {
@@ -446,10 +453,10 @@ a:before, a:after {
 
 #blue {
 	background: #3498db;
-	margin-top: -18px;
-	margin-bottom: 18px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	margin-top: -22px;
+	margin-bottom: 22px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 #blue img {
@@ -474,6 +481,10 @@ a:before, a:after {
 #blue h4 {
 	color: white;
 	font-weight: 700;
+	
+	line-height: 18px;
+	margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 #blue p {
@@ -518,13 +529,35 @@ a:before, a:after {
 
 #whiteish {
 	background: #ffffff;
-	padding-left: -1000px;
+	
+	box-shadow: 1px 0px 5px #888888;
+	padding-bottom: 20px;
+}
+
+#whiteish a{
+	color: #2d2d2d;
+}
+
+#whiteish-header {
+	background: #d2d2d2;
+	
+	
+	box-shadow: 1px 0px 5px #888888;
+}
+
+#whiteish-header h2 {
+	line-height: 40px;
+	margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 #white {
 	background: #ffffff;
-	padding-top: 80px;
-	padding-left: -1000px;
+	margin-top: 20px;
+	padding-top: 2px;
+	padding-bottom: 15px;
+	
+	box-shadow: 10px 2px 5px #888888;
 }
 
 .w {
